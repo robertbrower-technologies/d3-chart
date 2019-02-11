@@ -1,0 +1,113 @@
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+.border-0 {
+    border: 0 !important;
+}
+
+.border-radius-10px {
+    border-radius: 10px !important;
+}
+
+.cursor-pointer {
+    cursor: pointer !important;
+}
+
+.display-flex {
+    display: flex !important;
+}
+
+.flex-direction-column {
+    flex-direction: column !important;
+}
+
+.flex-grow-0 {
+    flex-grow: 0 !important;
+}
+
+.flex-grow-1 {
+    flex-grow: 1 !important;
+}
+
+.flex-shrink-0 {
+    flex-shrink: 0 !important;
+}
+
+.font-weight-bold {
+    font-weight: bold !important;
+}
+
+.font-size-48px {
+    font-size: 48px !important;
+}
+
+.height-100pct {
+    height: 100% !important;
+}
+
+.margin-0 {
+    margin: 0 !important;
+}
+
+.margin-24px {
+    margin: 24px !important;
+}
+
+.margin-bottom-24px {
+    margin-bottom: 24px !important;
+}
+
+.margin-left-24px {
+    margin-left: 24px !important;
+}
+
+.margin-left-8px {
+    margin-left: 8px !important;
+}
+
+.margin-right-24px {
+    margin-right: 24px !important;
+}
+
+.margin-top-24px {
+    margin-top: 24px !important;
+}
+
+.margin-top-8px {
+    margin-top: 8px !important;
+}
+
+.opacity-0p4 {
+    opacity: 0.4 !important;
+}
+
+.overflow-auto {
+    overflow: auto !important;
+}
+
+.overflow-hidden {
+    overflow: hidden !important
+}
+
+.padding-24px {
+    padding: 24 !important;
+}
+
+.padding-left-24px {
+    padding-left: 24 !important;
+}
+
+.padding-right-24px {
+    padding-right: 24 !important;
+}
+
+.text-align-center {
+    text-align: center !important;
+}
+
+/* .text-shadow {
+    text-shadow: 2px 2px #C8C8C8 !important;
+} */
+
+.width-100pct {
+    width: 100% !important;
+}

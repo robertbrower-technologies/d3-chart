@@ -1,0 +1,46 @@
+:host {
+    min-height: 0;
+}
+
+:host ::ng-deep g,
+:host ::ng-deep rect {
+    -webkit-transition: all .25s;
+    -moz-transition: all .25s;
+    -o-transition: all .25s;
+    -ms-transition: all .25s;
+    transition: all .25s;
+}
+
+:host ::ng-deep rect.chart {
+    fill: white;
+}
+
+:host ::ng-deep rect.chart:hover {
+    fill: white;
+}
+
+:host ::ng-deep rect.series {
+    fill: #E0F2F1;
+}
+
+:host ::ng-deep rect.series:hover {
+    fill: #A7FFEB;
+}
+
+:host ::ng-deep rect.bar {
+    fill: #004D40;
+}
+
+:host ::ng-deep rect.bar:hover {
+    fill: #c51162;
+}
+
+:host ::ng-deep g.axis {
+    font-size: 12px;
+}
+
+:host ::ng-deep line#limit {
+    stroke: #c51162;
+    stroke-width: 3;
+    stroke-dasharray: 3 6;
+  }

@@ -1,0 +1,19 @@
+<app-d3-chart
+    class="flex-grow-1"
+    [data]="data"
+    [xAxistickInterval]="xAxistickInterval"
+    [formatXAxisTick]="formatXAxisTick"
+    [yAxistickInterval]="yAxistickInterval"
+    [formatYAxisTick]="formatYAxisTick"
+    chartTitle="My D3 Chart"
+    (mouseOver)="onMouseOver($event)"
+    (mouseOut)="onMouseOut($event)"
+    (click)="onClick($event)"
+    (mouseover)="onMouseOverChart($event)">
+</app-d3-chart>
+<div
+    #tooltip="matTooltip"
+    [matTooltip]="tooltipText"
+    matTooltipPosition="above"
+    [ngStyle]="{'left': mouseX, 'top': mouseY}"
+></div>
